@@ -1,4 +1,4 @@
-# Gemini CLI - MCP/OpenAI Bridge Server
+# Gemini CLI - MCP/OpenAI Bridge Server (Windows Enhanced Fork)
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
@@ -8,6 +8,32 @@
 
 > **🎉 Built on Open Source Gemini CLI - Thanks to Google!**  
 > This project is built upon the open-source [Gemini CLI](https://github.com/google-gemini/gemini-cli) by Google. We appreciate Google's commitment to open source and their contribution to the developer community.
+
+## 🚀 Fork Enhancements
+
+**This fork adds Windows compatibility improvements and development testing enhancements:**
+
+### Windows Compatibility
+- ✅ **Enhanced Windows PowerShell support** with proper shell command handling
+- ✅ **Cross-platform path normalization** for Windows file system operations
+- ✅ **Windows-specific testing scripts** (`test-setup.ps1`)
+- ✅ **Improved error handling** for Windows subprocess execution
+
+### Development & Testing Features
+- ✅ **Local development test scripts** for bridge connectivity validation
+- ✅ **Enhanced logging and debugging** for Windows environments
+- ✅ **Integration testing** with Windows-based AI evolution systems
+- ✅ **Production-ready Windows deployment** configurations
+
+### Why This Fork?
+
+This fork specifically enables **free AI-powered evolutionary algorithm development** on Windows by providing:
+- 🆓 **1,000 free Gemini API requests per day** through Google's generous limits
+- 🪟 **Native Windows compatibility** with proper PowerShell and file system support
+- 🔧 **Enhanced developer experience** with comprehensive testing and setup scripts
+- 🚀 **Production reliability** for Windows-based AI development workflows
+
+**Perfect for Windows developers using [OpenEvolve](https://github.com/francoisjosephlacroix/openevolve) or other AI systems requiring OpenAI-compatible APIs with free tier access.**
 
 `@intelligentinternet/gemini-cli-mcp-openai-bridge` (or `gemini-cli-bridge`) is a versatile server application designed as a powerful extension to the `gemini-cli` ecosystem. It serves two primary roles:
 
